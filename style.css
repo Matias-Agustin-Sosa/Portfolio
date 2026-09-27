@@ -256,6 +256,15 @@ input {
         flex-direction: column;
     }
 
+    
+    .Nombre {
+        font-size: 1.5rem;
+    }
+
+    .Profesional {
+        font-size: 1rem;
+    }
+
     .BotonA {
         width: 80%;
     }
@@ -330,12 +339,12 @@ input {
     }*/
 
     .Nombre {
-        font-size: 1rem;
+        font-size: 1.5rem;
         margin: -10px -20px -35px -60px;
     }
 
     .Profesional {
-        font-size: 0.5rem;
+        font-size: 1rem;
         margin: 35px -10px 0px -60px;
     }
 
