@@ -1,0 +1,350 @@
+* {
+    box-sizing: border-box;
+}
+
+/* Evita que la tabla ocupe más espacio del necesario */
+table {
+    color: #ffffff;
+    background-color: #071C2C;
+    border: 2px solid #ffffff;
+    border-collapse: separate;
+    border-spacing: 0;
+    border-radius: 12px;
+    overflow: hidden;
+    width: 100%;
+    max-width: 1000px; /* Limita el ancho máximo de la tabla */
+}
+
+/* Contenedor responsivo para la tabla */
+.ContenedorTabla {
+    width: 100%;
+    max-width: 1000px;
+    overflow-x: auto;
+}
+
+/* Alinea el texto a la izquierda en encabezados y celdas */
+th, td { /* Table Header y Table Data */
+    padding: 15px 25px;
+    text-align: left; /* Mantiene la misma alineación que los encabezados */
+    vertical-align: top; /* Alinea el texto en la parte superior de la celda */
+}
+
+ul {
+    margin: 0; 
+    padding-left: 20px; 
+}
+
+form {
+    display: block;
+    padding: 12px;
+    background-color: #071C2C;
+    border: 2px solid #ffffff;
+    border-radius: 12px;
+    width: 100%;
+    max-width: 1000px;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+input {
+    width: 100%;
+    padding: 8px 12px;
+    margin-top: 5px;
+    background-color: #ffffff;
+    border: 0px solid #ffffff;
+    border-radius: 4px;
+    color: #071C2C;
+}
+
+.Titulos {
+    color: #f8f6f6;
+    text-shadow: 0px 0px 8px rgb(11, 211, 226);
+    text-align: center;
+}
+
+.FondoPagina {
+    margin: 0;
+    padding: 20px 0;
+    display: flex;
+    background-color: #0b0b0b;
+    flex-direction: column; /* Apila los elementos uno debajo de otro */
+    align-items: center;     /* Centra horizontalmente */
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+}
+
+.FondoDivPrincipal {
+    background-color: #0b496082;
+    border-radius: 8px;
+    width: 90%;
+    max-width: 1100px;
+    box-shadow: 0px 0px 8px rgb(11, 211, 226);
+    overflow: hidden;
+}
+
+.ContenedorImagenes {
+    position: relative;
+    min-height: 200px;
+}
+
+.FotoFondo {
+    border-radius: 8px 8px 0 0;
+    display: block;
+    width: 100%;
+    height: 200px;
+    filter: brightness(0.6);
+    object-fit: cover; /* Recorta los bordes sobrantes para no deformar la imagen */
+}
+
+.FotoPerfil {
+    position: absolute;
+    margin: 20px;
+    border-radius: 15px;
+    width: 130px;
+    height: 130px;
+    object-fit: cover;
+    top: 15px;          /* Distancia desde el borde superior */
+    left: 10px;         /* Distancia desde el borde izquierdo */
+}
+
+.DatosPerfil {
+    position: absolute;
+    top: 30px;
+    left: 180px;
+    right: 20px;
+}
+
+.Nombre {
+    color: #ffffff;
+    margin: 0 0 5px 0;
+    font-size: 1.8rem;
+}
+
+.Profesional {
+    color: #ffffff;
+    margin: 0;
+    font-size: 1.2rem;
+    font-weight: normal;
+}
+
+.DivTexto {
+    color: #ffffff;
+    background-color: #071C2C;
+    border: 2px solid #ffffff;
+    border-radius: 12px;
+    width: 100%;
+    max-width: 1000px;
+    overflow: hidden;
+}
+
+.SobreMi {
+    margin-top: 0;
+    border-radius: 9px 9px 0 0;
+    background-color: #141414;
+    padding: 20px;
+    line-height: 1.6;
+}
+
+.BotonA {
+    display: inline-block; /* Permite aplicar padding y dimensiones correctamente */
+    padding: 12px 24px;    /* Arriba/Abajo 12px, Izquierda/Derecha 24px */
+    border-radius: 8px;
+    margin: 10px;
+    color: #ffffff;
+    background-color: #00B2D6;
+    text-decoration: none;
+    transition: background-color 0.3s ease; /* Transición suave */
+    text-align: center;
+}
+
+.BotonA:hover {
+    background-color: #141414;
+    box-shadow: 0px 0px 8px rgb(11, 211, 226);
+}
+
+.DivObjetos {
+    margin: 20px;
+    display: flex;
+    flex-direction: column; /* Apila los elementos uno debajo de otro */
+    justify-content: center; /* Centra verticalmente */
+    align-items: center;     /* Centra horizontalmente */
+}
+
+.CentradoCampos {
+    display: flex;
+    align-items: center;
+}
+
+.Tecnologia {
+    vertical-align: middle;
+    text-align: left;
+    font-weight: bold;
+}
+
+.NiveleAlto {
+    background-color: rgba(0, 255, 0, 0.466);
+    padding: 12px 24px;
+    vertical-align: middle;
+    text-align: left;
+}
+
+.NiveleMedio {
+    background-color: rgba(221, 255, 0, 0.447);
+    padding: 12px 24px;
+    vertical-align: middle;
+    text-align: left;
+}
+
+.NiveleBajo {
+    background-color: rgba(255, 47, 47, 0.513);
+    padding: 12px 24px;
+    vertical-align: middle;
+    text-align: left;
+}
+
+.DivBotones {
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.DivCampo {
+    margin: 15px 0;
+    padding: 14px 20px;
+    border-radius: 12px;
+    background-color: #141414;
+    display: flex;
+    flex-direction: column;
+}
+
+.BotonEnviar {
+    display: inline-block;
+    padding: 12px 24px;
+    border-radius: 8px;
+    margin: 10px 0;
+    border: none;
+    color: #ffffff;
+    background-color: #00B2D6;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: 100%;
+    max-width: 200px;
+}
+
+.BotonEnviar:hover {
+    box-shadow: 0px 0px 8px rgb(11, 211, 226);
+    background-color: #141414;
+}
+
+.DivFormularioBotones {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* ===================================================
+   MEDIA QUERIES (ADAPTABILIDAD TELEFONOS Y TABLETS)
+   =================================================== */
+
+/* Tablets y pantallas medianas (<= 768px) */
+/* Teléfonos móviles (<= 480px) */
+@media (max-width: 480px) {
+    .DivBotones {
+        flex-direction: column;
+    }
+
+    .BotonA {
+        width: 80%;
+    }
+
+    .DivCampo {
+        padding: 10px;
+    }
+
+    th, td {
+        padding: 8px 10px;
+        font-size: 0.85rem;
+    }
+}
+
+@media (max-width: 376px) {
+    .FotoPerfil {
+        position: absolute;
+        margin: 20px;
+        border-radius: 15px;
+        width: 130px;
+        height: 130px;
+        object-fit: cover;
+        top: 5px;
+        left: -5px;
+    }
+
+    .Nombre {
+        font-size: 1.5rem;
+        margin: 0px -20px -30px -25px;
+    }
+
+    .Profesional {
+        font-size: 1rem;
+        margin: 35px -10px 0px -25px;
+    }
+}
+
+@media (max-width: 320px) {
+    .FondoDivPrincipal {
+        width: 95%;
+    }
+
+    .ContenedorImagenes {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: #000000;
+        padding-bottom: 20px;
+    }
+
+    /*.FotoFondo {
+        height: 120px;
+    }*/
+
+    .FotoPerfil {
+        position: relative;
+        top: -50px;
+        left: 25px;
+        margin: -125px 230px -10px 0px;
+        height: 115px;
+        width: 100px;
+        border-radius: 10%;
+    }
+
+    /*.DatosPerfil {
+        position: relative;
+        top: 0;
+        left: 0;
+        right: 0;
+        text-align: center;
+        padding: 0 15px;
+    }*/
+
+    .Nombre {
+        font-size: 1.5rem;
+        margin: -10px -20px -35px -60px;
+    }
+
+    .Profesional {
+        font-size: 1rem;
+        margin: 35px -10px 0px -60px;
+    }
+
+    .DivObjetos {
+        margin: 15px 10px;
+    }
+
+    th, td {
+        padding: 10px 12px;
+        font-size: 0.9rem;
+    }
+}

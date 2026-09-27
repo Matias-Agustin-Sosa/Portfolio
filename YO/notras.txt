@@ -1,0 +1,46 @@
+<head>
+<meta>
+<title>
+<!-- Para nuestro CSS externo -->
+<link>
+</head>
+<body>
+<h1>
+<p>
+<a>
+      
+<!-- Una imagen propia o representativa nuestra! -->
+<img>
+<!-- Una tabla para enumerar las tecnologías que conocemos, 
+    las que queremos conocer y nuestros hobbies -->
+<table>
+    
+<!-- Formulario sencillo HTML sin funcionalidad. 
+    Con campos nombre, apellido, email, telefono y un boton submit de enviar -->
+<form>
+</body>
+
+
+
+
+Azul Oscuro / Fondo Profundo: #071C2C – Presente en el fondo y zonas de sombra.   
+Azul Petrolero / Azul Medio: #0B4A60 – Transición del fondo hacia la luz superior derecha.   
+Cian / Turquesa Brillante: #00B2D6 – Utilizado en los nodos y líneas luminosas en la parte superior derecha.   
+Dorado / Naranja Cálido: #D89028 – Presente en la red de nodos e interconexiones de la esquina inferior izquierda.   
+Amarillo Suave / Beige Dorado: #F0C265 – Detalle de luz en los puntos o nodos dorados más deslumbrantes.   
+
+.center {
+    display: flex;
+    flex-direction: column; /* Apila los elementos uno debajo de otro */
+    justify-content: center; /* Centra verticalmente */
+    align-items: center;     /* Centra horizontalmente */
+}
+
+Tecnologías que manejo:
+💻 Python | JavaScript | HTML | CSS | Tailwind
+📚 Pandas | Numpy | Matplotlib | Seaborn | Scikit-learn | FastAPI 
+🛢 MySQL | Almacenamiento en la nube | BigQuery 
+🔧 Docker | Hadoop | Hive | Spark
+📊 Power BI | Excel
+🏗️ Blender
+⚙️ GitHub | Jupyter | Google Colab | Visual Studio Code
