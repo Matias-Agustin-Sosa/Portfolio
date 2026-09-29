@@ -2,7 +2,6 @@
     box-sizing: border-box;
 }
 
-/* Evita que la tabla ocupe más espacio del necesario */
 table {
     color: #ffffff;
     background-color: #071C2C;
@@ -12,21 +11,19 @@ table {
     border-radius: 12px;
     overflow: hidden;
     width: 100%;
-    max-width: 1000px; /* Limita el ancho máximo de la tabla */
+    max-width: 1000px;
 }
 
-/* Contenedor responsivo para la tabla */
 .ContenedorTabla {
     width: 100%;
     max-width: 1000px;
     overflow-x: auto;
 }
 
-/* Alinea el texto a la izquierda en encabezados y celdas */
 th, td { /* Table Header y Table Data */
     padding: 15px 25px;
-    text-align: left; /* Mantiene la misma alineación que los encabezados */
-    vertical-align: top; /* Alinea el texto en la parte superior de la celda */
+    text-align: left;
+    vertical-align: top;
 }
 
 ul {
@@ -67,9 +64,9 @@ input {
     padding: 20px 0;
     display: flex;
     background-color: #0b0b0b;
-    flex-direction: column; /* Apila los elementos uno debajo de otro */
-    align-items: center;     /* Centra horizontalmente */
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+    flex-direction: column;
+    align-items: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif; /* Cadena de respaldo | adaptable */
 }
 
 .FondoDivPrincipal {
@@ -92,7 +89,7 @@ input {
     width: 100%;
     height: 200px;
     filter: brightness(0.6);
-    object-fit: cover; /* Recorta los bordes sobrantes para no deformar la imagen */
+    object-fit: cover;
 }
 
 .FotoPerfil {
@@ -102,8 +99,8 @@ input {
     width: 130px;
     height: 130px;
     object-fit: cover;
-    top: 15px;          /* Distancia desde el borde superior */
-    left: 10px;         /* Distancia desde el borde izquierdo */
+    top: 15px;
+    left: 10px;
 }
 
 .DatosPerfil {
@@ -145,8 +142,8 @@ input {
 }
 
 .BotonA {
-    display: inline-block; /* Permite aplicar padding y dimensiones correctamente */
-    padding: 12px 24px;    /* Arriba/Abajo 12px, Izquierda/Derecha 24px */
+    display: inline-block;
+    padding: 12px 24px;
     border-radius: 8px;
     margin: 10px;
     color: #ffffff;
@@ -164,9 +161,9 @@ input {
 .DivObjetos {
     margin: 20px;
     display: flex;
-    flex-direction: column; /* Apila los elementos uno debajo de otro */
-    justify-content: center; /* Centra verticalmente */
-    align-items: center;     /* Centra horizontalmente */
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center;
 }
 
 .CentradoCampos {
@@ -245,12 +242,8 @@ input {
     align-items: center;
 }
 
-/* ===================================================
-   MEDIA QUERIES (ADAPTABILIDAD TELEFONOS Y TABLETS)
-   =================================================== */
+/*MEDIA QUERIES (TELEFONOS Y TABLETS)*/
 
-/* Tablets y pantallas medianas (<= 768px) */
-/* Teléfonos móviles (<= 480px) */
 @media (max-width: 480px) {
     .DivBotones {
         flex-direction: column;
