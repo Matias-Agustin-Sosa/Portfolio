@@ -17,7 +17,7 @@
     <!-- Creamos el fondo del porfolio (con un shadow para decoracion) -->
     <div class="FondoDivPrincipal">
         
-        <!-- Este div contine foto de perfil y foto de fondo de perfil -->
+        <!-- Este div contine foto de perfil y foto de fondo de perfil (Encabezado visual del perfil) -->
         <div class="ContenedorImagenes">
             <img src="assets/Img/fondo.png" alt="Fondo_foto" class="FotoFondo">
             <img src="assets/Img/foto perfil - sin fondo.jpg" alt="Foto_Mati" class="FotoPerfil">
@@ -27,233 +27,210 @@
             </div>
         </div>
 
-        <!-- Sección sobre mi -->
-        <div class="DivObjetos">
-            <h2 class="Titulos">SOBRE MÍ</h2>
-        </div>
+        <!-- INICIO DEL CONTENIDO PRINCIPAL -->
+        <main>
 
-        <!-- Defino un fondo diferente y lo enmarco dentro del mismo fondo principal para colocar mis objetos -->
-        <div class="DivObjetos">
-
-            <!-- Contenedor con mi informacion personal -->
-            <div class="DivTexto">
-
-                <!-- Texto con fondo negro y letra blanca -->
-                <p class="SobreMi">
-                    <strong>Desarrollador Full Stack & Científico de Datos</strong> con formación técnica en el IFTS N° 16 y experiencia sólida en arquitectura de datos, 
-                    optimización de sistemas e integración. Especializado en el ecosistema JavaScript para desarrollo web end-to-end, y en Python para 
-                    aprendizaje automático, procesamiento de grandes volúmenes de datos y construcción de APIs. <br>
-                    Vivo en Argentina, Buenos Aires Capital. <br>
-                    Valoro el trabajo en equipo y me considero una persona curiosa, responsable y organizada.
-                </p>
+            <!-- Sección Sobre Mí -->
+            <section class="SecObjetos">
+                <h2 class="Titulos">SOBRE MÍ</h2>
                 
-            </div>
-
-        </div>
-
-        <!-- Sección Experiencia laboral -->
-        <div class="DivObjetos">
-            <h2 class="Titulos">Experiencia laboral</h2>
-        </div>
-
-        <div class="DivObjetos">
-
-            <div class="DivTexto">
-
-                <p class="SobreMi">
-                    <strong>Analista ETL – Soporte BI | Asap Consulting S.A. (Cliente: DirecTV):</strong>
-                    Soporte operativo, mantenimiento y optimización de flujos de integración de datos en el área de Business Intelligence para DirecTV, garantizando la calidad, disponibilidad y consistencia de los datos para la toma de decisiones estratégicas.
-                    <br>
-                    Control y seguimiento de ejecuciones de secuencias y jobs ETL críticos, asegurando el cumplimiento de los tiempos de procesamiento.
-                    <br>
-                    Soporte 24/7 en guardias pasivas para la detección inmediata, diagnóstico y corrección de aborts/errores en secuencias y jobs a través de DataStage Director, garantizando la continuidad operativa de los flujos nocturnos y de fin de semana.
-                    <br>
-                    Desarrollo, modificación y optimización de procesos ETL para la ingesta y transformación de datos.
-                    <br>
-                    Carga, descarga, manipulación y modificación de archivos en servidores Linux utilizando clientes SSH (Putty).
-                    <br>
-                    Ejecución de scripts SQL a demanda en Oracle y construcción de consultas complejas para la generación de reportes y análisis puntual.
-                    <br>
-                    Análisis y saneamiento de inconsistencias de datos, diagnóstico y resolución de incidentes vinculados a faltante o baja calidad de información (vía Jira).
-                    <br>
-                    Elaboración de consultas y análisis de datos utilizando Excel y SAS.
-
-                </p>
-
-                <p style="text-align: center; font-weight: bold; padding: 0 10px;">Links a mis redes sociales</p>
-                
-                <!-- Creo links a mis redes con forma de boton y decoro con un shadow, alteracion de color y borde redondeado -->
-                <div class="DivBotones">
-                    <a href="https://github.com/Matias-Agustin-Sosa" class="BotonA" target="_blank">
-                        <i class="fa-brands fa-github"></i> GitHub
-                    </a>
-                    <a href="mailto:tu-correo@gmail.com" class="BotonA" target="_blank">
-                        <i class="fa-solid fa-envelope"></i> Gmail
-                    </a>
-                    <a href="https://www.linkedin.com/in/matias-agustin-sosa" class="BotonA" target="_blank">
-                        <i class="fa-brands fa-linkedin"></i> LinkedIn
-                    </a>
+                <!-- Contenedor con mi informacion personal -->
+                <div class="DivTexto">
+                    <!-- Texto con fondo negro y letra blanca -->
+                    <p class="SobreMi">
+                        <strong>Desarrollador Full Stack & Científico de Datos</strong> con formación técnica en el IFTS N° 16 y experiencia sólida en arquitectura de datos, 
+                        optimización de sistemas e integración. Especializado en el ecosistema JavaScript para desarrollo web end-to-end, y en Python para 
+                        aprendizaje automático, procesamiento de grandes volúmenes de datos y construcción de APIs. <br>
+                        Vivo en Argentina, Buenos Aires Capital. <br>
+                        Valoro el trabajo en equipo y me considero una persona curiosa, responsable y organizada.
+                    </p>
                 </div>
+            </section>
 
-            </div>
+            <!-- Sección Experiencia laboral -->
+            <section class="SecObjetos">
+                <h2 class="Titulos">Experiencia laboral</h2>
 
-        </div>
+                <div class="DivTexto">
+                    <p class="SobreMi">
+                        <strong>Analista ETL – Soporte BI | Asap Consulting S.A. (Cliente: DirecTV):</strong>
+                        Soporte operativo, mantenimiento y optimización de flujos de integración de datos en el área de Business Intelligence para DirecTV, garantizando la calidad, disponibilidad y consistencia de los datos para la toma de decisiones estratégicas.
+                        <br>
+                        Control y seguimiento de ejecuciones de secuencias y jobs ETL críticos, asegurando el cumplimiento de los tiempos de procesamiento.
+                        <br>
+                        Soporte 24/7 en guardias pasivas para la detección inmediata, diagnóstico y corrección de aborts/errores en secuencias y jobs a través de DataStage Director, garantizando la continuidad operativa de los flujos nocturnos y de fin de semana.
+                        <br>
+                        Desarrollo, modificación y optimización de procesos ETL para la ingesta y transformación de datos.
+                        <br>
+                        Carga, descarga, manipulación y modificación de archivos en servidores Linux utilizando clientes SSH (Putty).
+                        <br>
+                        Ejecución de scripts SQL a demanda en Oracle y construcción de consultas complejas para la generación de reportes y análisis puntual.
+                        <br>
+                        Análisis y saneamiento de inconsistencias de datos, diagnóstico y resolución de incidentes vinculados a faltante o baja calidad de información (vía Jira).
+                        <br>
+                        Elaboración de consultas y análisis de datos utilizando Excel y SAS.
+                    </p>
 
-        <!-- Mi stack tecnológico y su nivel-->
-        <div class="DivObjetos">
-            <h2 class="Titulos">STACK TECNOLÓGICO</h2>
-        </div>
-
-        <div class="DivObjetos">
-
-            <!-- Creo un contenedor para mi tabla con un tamaño espacifico y adaptable -->
-            <div class="ContenedorTabla">
-
-                <!-- Creo una tabla con mis tecnologias, librerias, tipo de experiencia y nivel (el nuvel tiene un fondo personalizado segun alto, medio, bajo) -->
-                <table>
-                    <!-- Encabezado de la tabla -->
-                    <thead style="background-color: #141414;">
-                        <tr>
-                            <th>Tecnología</th>
-                            <th>Librerías y variantes</th>
-                            <th>Tipo de experiencia</th>
-                            <th>Nivel</th>
-                        </tr>
-                    </thead>
-
-                    <!-- Cuerpo de la tabla -->
-                    <tbody>
-                        <tr>
-                            <td class="Tecnologia">Python</td>
-                            <td>
-                                <ul>
-                                    <li>Pandas</li>
-                                    <li>Numpy</li>
-                                    <li>Matplotlib</li>
-                                    <li>Seaborn</li>
-                                    <li>Scikit-learn</li>
-                                    <li>FastAPI</li>
-                                </ul> 
-                            </td>
-                            <td>Laboral</td>
-                            <td class="NiveleAlto">Alto</td>
-                        </tr>
-
-                        <tr>
-                            <td class="Tecnologia">SQL</td>
-                            <td>
-                                <ul>
-                                    <li>MySQL</li>
-                                    <li>SQL Oracle</li>
-                                    <li>Data Stage</li>
-                                    <li>BigQuery</li>
-                                </ul>
-                            </td>
-                            <td>Laboral</td>
-                            <td class="NiveleAlto">Alto</td>
-                        </tr>
-
-                        <tr>
-                            <td class="Tecnologia">JavaScript</td>
-                            <td>
-                                <ul>
-                                    <li>HTML</li>
-                                    <li>CSS</li>
-                                    <li>React Native</li>
-                                    <li>Tailwind</li>
-                                </ul>
-                            </td>
-                            <td>Educación Superior</td>
-                            <td class="NiveleAlto">Alto</td>
-                        </tr>
-
-                        <tr>
-                            <td class="Tecnologia">Linux</td>
-                            <td>
-                                <ul>
-                                    <li>Docker</li>
-                                    <li>Hadoop</li>
-                                    <li>Hive</li>
-                                    <li>Spark</li>
-                                </ul>
-                            </td>
-                            <td>Laboral</td>
-                            <td class="NiveleMedio">Medio</td>
-                        </tr>
-
-                        <tr>
-                            <td class="Tecnologia">Power BI</td>
-                            <td>
-                                <ul>
-                                    <li>DAX</li>
-                                    <li>Lenguaje M</li>
-                                </ul>
-                            </td>
-                            <td>Educación Superior</td>
-                            <td class="NiveleMedio">Medio</td>
-                        </tr>
-
-                        <tr>
-                            <td class="Tecnologia">Blender</td>
-                            <td>
-                                <ul>
-                                    <li>Diseño 2D y 3D</li>
-                                    <li>Animación</li>
-                                    <li>Cinemáticas</li>
-                                </ul>
-                            </td>
-                            <td>Curso Intensivo</td>
-                            <td class="NiveleBajo">Bajo</td>
-                        </tr>
-                    </tbody>
-                </table>
-            
-            </div>
-
-        </div>
-
-        <!-- Sección del formulario de contacto-->
-        <div class="DivObjetos">
-            <h2 class="Titulos">CONTÁCTAME</h2>
-        </div>
-
-        <!-- Se crea el contenedor para el formulario -->
-        <div class="DivObjetos"> 
-
-            <!-- Se crea el formulario de contacto con sus campos y id correspondientes -->
-            <form action="/enviar-datos" method="POST">
-
-                <!-- Se crea una clase para los campos del formulario que define color de fondo, largo, borde redondeado, etc. -->
-                <div class="DivCampo">
-                    <label for="nombre">Nombre:</label>
-                    <input type="text" id="nombre" name="nombre" placeholder="Matías" required>
+                    <p style="text-align: center; font-weight: bold; padding: 0 10px;">Links a mis redes sociales</p>
+                    
+                    <!-- Creo links a mis redes con forma de boton y decoro con un shadow, alteracion de color y borde redondeado -->
+                    <div class="DivBotones">
+                        <a href="https://github.com/Matias-Agustin-Sosa" class="BotonA" target="_blank">
+                            <i class="fa-brands fa-github"></i> GitHub
+                        </a>
+                        <a href="mailto:tu-correo@gmail.com" class="BotonA" target="_blank">
+                            <i class="fa-solid fa-envelope"></i> Gmail
+                        </a>
+                        <a href="https://www.linkedin.com/in/matias-agustin-sosa" class="BotonA" target="_blank">
+                            <i class="fa-brands fa-linkedin"></i> LinkedIn
+                        </a>
+                    </div>
                 </div>
+            </section>
 
-                <div class="DivCampo">
-                    <label for="apellido">Apellido:</label>
-                    <input type="text" id="apellido" name="apellido" placeholder="Sosa" required>
-                </div>
+            <!-- Mi stack tecnológico y su nivel -->
+            <section class="SecObjetos">
+                <h2 class="Titulos">STACK TECNOLÓGICO</h2>
 
-                <div class="DivCampo">
-                    <label for="email">Correo electrónico:</label>
-                    <input type="email" id="email" name="email" placeholder="matiasosa@correo.com" required>
-                </div>
+                <!-- Creo un contenedor para mi tabla con un tamaño espacifico y adaptable -->
+                <div class="ContenedorTabla">
+                    <table>
+                        <!-- Encabezado de la tabla -->
+                        <thead style="background-color: #141414;">
+                            <tr>
+                                <th>Tecnología</th>
+                                <th>Librerías y variantes</th>
+                                <th>Tipo de experiencia</th>
+                                <th>Nivel</th>
+                            </tr>
+                        </thead>
 
-                <div class="DivCampo">
-                    <label for="telefono">Teléfono:</label>
-                    <input type="tel" id="telefono" name="telefono" placeholder="11602433" required>
-                </div>
+                        <!-- Cuerpo de la tabla -->
+                        <tbody>
+                            <tr>
+                                <td class="Tecnologia">Python</td>
+                                <td>
+                                    <ul>
+                                        <li>Pandas</li>
+                                        <li>Numpy</li>
+                                        <li>Matplotlib</li>
+                                        <li>Seaborn</li>
+                                        <li>Scikit-learn</li>
+                                        <li>FastAPI</li>
+                                    </ul> 
+                                </td>
+                                <td>Laboral</td>
+                                <td class="NiveleAlto">Alto</td>
+                            </tr>
 
-            <!-- Se agrega estilos al boton enviar: hover, cambio de color, shadow, etc. -->
-                <div class="DivFormularioBotones">
-                    <button type="submit" class="BotonEnviar">Enviar</button>
+                            <tr>
+                                <td class="Tecnologia">SQL</td>
+                                <td>
+                                    <ul>
+                                        <li>MySQL</li>
+                                        <li>SQL Oracle</li>
+                                        <li>Data Stage</li>
+                                        <li>BigQuery</li>
+                                    </ul>
+                                </td>
+                                <td>Laboral</td>
+                                <td class="NiveleAlto">Alto</td>
+                            </tr>
+
+                            <tr>
+                                <td class="Tecnologia">JavaScript</td>
+                                <td>
+                                    <ul>
+                                        <li>HTML</li>
+                                        <li>CSS</li>
+                                        <li>React Native</li>
+                                        <li>Tailwind</li>
+                                    </ul>
+                                </td>
+                                <td>Educación Superior</td>
+                                <td class="NiveleAlto">Alto</td>
+                            </tr>
+
+                            <tr>
+                                <td class="Tecnologia">Linux</td>
+                                <td>
+                                    <ul>
+                                        <li>Docker</li>
+                                        <li>Hadoop</li>
+                                        <li>Hive</li>
+                                        <li>Spark</li>
+                                    </ul>
+                                </td>
+                                <td>Laboral</td>
+                                <td class="NiveleMedio">Medio</td>
+                            </tr>
+
+                            <tr>
+                                <td class="Tecnologia">Power BI</td>
+                                <td>
+                                    <ul>
+                                        <li>DAX</li>
+                                        <li>Lenguaje M</li>
+                                    </ul>
+                                </td>
+                                <td>Educación Superior</td>
+                                <td class="NiveleMedio">Medio</td>
+                            </tr>
+
+                            <tr>
+                                <td class="Tecnologia">Blender</td>
+                                <td>
+                                    <ul>
+                                        <li>Diseño 2D y 3D</li>
+                                        <li>Animación</li>
+                                        <li>Cinemáticas</li>
+                                    </ul>
+                                </td>
+                                <td>Curso Intensivo</td>
+                                <td class="NiveleBajo">Bajo</td>
+                            </tr>
+                        </tbody>
+                    </table>
                 </div>
-            
-            </form>
-        
-        </div>
+            </section>
+
+            <!-- Sección del formulario de contacto -->
+            <section class="SecObjetos">
+                <h2 class="Titulos">CONTÁCTAME</h2>
+
+                <!-- Se crea el formulario de contacto con sus campos y id correspondientes -->
+                <form action="/enviar-datos" method="POST">
+                    <div class="DivCampo">
+                        <label for="nombre">Nombre:</label>
+                        <input type="text" id="nombre" name="nombre" placeholder="Matías" required>
+                    </div>
+
+                    <div class="DivCampo">
+                        <label for="apellido">Apellido:</label>
+                        <input type="text" id="apellido" name="apellido" placeholder="Sosa" required>
+                    </div>
+
+                    <div class="DivCampo">
+                        <label for="email">Correo electrónico:</label>
+                        <input type="email" id="email" name="email" placeholder="matiasosa@correo.com" required>
+                    </div>
+
+                    <div class="DivCampo">
+                        <label for="telefono">Teléfono:</label>
+                        <input type="tel" id="telefono" name="telefono" placeholder="11602433" required>
+                    </div>
+
+                    <div class="DivFormularioBotones">
+                        <button type="submit" class="BotonEnviar">Enviar</button>
+                    </div>
+                </form>
+            </section>
+
+        </main>
+        <!-- FIN DEL CONTENIDO PRINCIPAL -->
 
     </div>
 
 </body>
+
 </html>

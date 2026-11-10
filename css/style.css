@@ -166,7 +166,7 @@ input {
 
 .BotonA:active { color: rgb(4, 254, 246); }
 
-.DivObjetos {
+.SecObjetos {
     margin: 20px;
     display: flex;
     flex-direction: column; 
@@ -351,7 +351,7 @@ input {
         margin: 35px -10px 0px -60px;
     }
 
-    .DivObjetos {
+    .SecObjetos {
         margin: 15px 10px;
     }
 
