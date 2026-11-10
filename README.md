@@ -37,7 +37,7 @@ Abrí `index.html` en tu navegador para recorrer el sitio localmente. Las imáge
 - [GitHub](https://github.com/Matias-Agustin-Sosa)
 - [LinkedIn](https://www.linkedin.com/in/matias-agustin-sosa)
 
-En mi porfolio tambien podes encontar una sección con mis lincks a mis redes:
+En mi portfolio también podés encontrar links a mis redes sociales en la sección de Experiencia Laboral:
 
 <p align="center">
 <img src="assets/Img/Imagen_portfolio.png" alt="Mis Redes" width="250">
